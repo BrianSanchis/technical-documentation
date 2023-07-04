@@ -3,7 +3,7 @@
 <h2>coll_synthese.js</h2>
 <h3>Réalisé par Sanchis Brian</h3>
 
-<img  width="500"  alt="login"  src="/logo-sncf.jpg">
+<img  width="500"  alt="login"  src="/logoBlackWhite.png">
 </div>
 
 # Qu'est-ce que coll_synthese.js ?
@@ -42,13 +42,13 @@ XML (Extensible Markup Language)
 
 - **fonction coll_listAppli_call()** -> appelle la fonction **coll_listAppli_Update()**
 
-- **fonction coll_listAppli_Update()** -> permet de rafraîchir la page à partir du cache
+- **fonction coll_listAppli_Update()** -> Elle prend un paramètre ***bCache*** qui indique si le cache doit être utilisé lors du chargement de la page -> Permet de rafraîchir la page à partir du cache.
 
 - **fonction coll_listAppli_draw()** -> affichage des applications -> contient ->
-	- **fonction load()** -> récupère la liste des applications modifiées ou décommissionner
-	- Boucle for permettant de trier les applications modifiées.
-	- Plusieurs conditions permettant de filtrer l'application
-	- Plusieurs conditions permettant d'afficher uniquement les applications non-modifiées
+	- **fonction load()** -> effectue une requête ***AJAX*** en utilisant l'objet ***XMLHttpRequest*** pour récupérer des données à partir de l'URL spécifiée -> récupère la 		 liste des applications modifiées ou décommissionner.
+	- Boucle for parcourrant la liste des applicatis mofidiés pour la comparer avec l'applicatif générer ->permet de trier les applications modifiées.
+	- Plusieurs conditions prenant en compte les détails d'une application -> permet de filtrer l'application à afficher
+	- Plusieurs conditions prenant en compte les filtres -> permet d'afficher uniquement les applications non-modifiées
 
 # Installation
 
