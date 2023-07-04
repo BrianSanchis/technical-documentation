@@ -6,29 +6,29 @@
 <img  width="500"  alt="login"  src="/logo-sncf.jpg">
 </div>
 
-# qu'est ce que coll_synthese.js ?
+# Qu'est-ce que coll_synthese.js ?
 
 **coll_synthese.js** est un fichier du dossier **collectes**.
 
 Il a pour utilité principale d'afficher les différentes applications à décommissionner ou modifier.
 
-# Auteur et versions
+# Auteurs et versions
 
 - Dimitri Lyonnet (DLT)
 - Brian Sanchis (BS)
 - created on 02-Mar-2020
 - subVersion, 0.2.001 2020-05-19
 
-# Langage, technologie et principale variable
+# Langages, technologies et principales variables
 
-**Langage et technologie utilisée :**
+**Langages et technologies utilisées :**
 
 - JavaScipt (60%)
 - HTML (15%)
 - CSS, bootstrap (15%)
 - XML (10%)
 
-**Principal variables :**
+**Principales variables :**
 
 - collecte : génération du HTML et du CSS (bootstrap)
 - xmlList : liste des applications modifiées
