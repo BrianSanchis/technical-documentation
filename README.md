@@ -3,7 +3,7 @@
 <h2>coll_synthese.js</h2>
 <h3>Réalisé par Sanchis Brian</h3>
 
-<img  width="500"  alt="login"  src="/logoSncfDoc.png">
+<img  width="500"  alt="login"  src="/logo-sncf.jpg">
 </div>
 
 # qu'est ce que coll_synthese.js ?
