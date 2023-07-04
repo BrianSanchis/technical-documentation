@@ -10,16 +10,16 @@
 
 **coll_synthese.js** est un fichier du dossier **collectes**.
 
-Il a pour utilisé principale d'afficher les différentes applications à décommissioner ou modifier.
+Il a pour utilité principale d'afficher les différentes applications à décommissionner ou modifier.
 
 # Auteur et versions
-  
+
 - Dimitri Lyonnet (DLT)
 - Brian Sanchis (BS)
 - created on 02-Mar-2020
 - subVersion, 0.2.001 2020-05-19
 
-# Langage, technologie et principal variable
+# Langage, technologie et principale variable
 
 **Langage et technologie utilisée :**
 
@@ -30,22 +30,22 @@ Il a pour utilisé principale d'afficher les différentes applications à décom
 
 **Principal variables :**
 
-- collecte : géneration du HTML et du CSS (bootstrap)
-- xmlList : liste des applications modifiés
-- nom : nom de chaque applications une par une
+- collecte : génération du HTML et du CSS (bootstrap)
+- xmlList : liste des applications modifiées
+- d.nom : nom de chaque application une par une
 - count : compteur d'application affiché
 
 # Déscription des différentes fonctions
 
--  **function coll_listAppli_call()** -> appele **coll_listAppli_Update()**
+- **function coll_listAppli_call()** -> appelle **coll_listAppli_Update()**
 
--  **function coll_listAppli_Update()** -> permet de rafraichir la page à partir du cache
+- **function coll_listAppli_Update()** -> permet de rafraîchir la page à partir du cache
 
--  **function coll_listAppli_draw()** -> affichage des applications -> contient ->
-	- **function load()** -> récupère la liste des applications modifiés ou 	décommissionées
-	- boucle for permettant de trier les applications modifiés
-	- plusieurs condiftions permettant de filtrer l'application
-	- plusieurs conditions, si l'application n'est pas modifié, alors on génere le contenu de l'application
+- **function coll_listAppli_draw()** -> affichage des applications -> contient ->
+	- **function load()** -> récupère la liste des applications modifiées ou décommissionner
+	- boucle for permettant de trier les applications modifiées.
+	- plusieurs conditions permettant de filtrer l'application
+	- plusieurs conditions, si l'application n'est pas modifiée, alors on génère le contenu de l'application
 
 # Installation
 
