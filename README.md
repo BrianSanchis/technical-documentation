@@ -23,6 +23,13 @@ Il a pour utilité principale d'afficher les différentes applications à décom
 
 **Langages et technologies utilisées :**
 
+- ![HTML5](https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) (15%)
+<br>
+- ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) (15%)
+<br>
+- ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) (60%)
+<br>
+
 - JavaScipt (60%)
 - HTML (15%)
 - CSS, bootstrap (15%)
