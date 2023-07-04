@@ -29,7 +29,7 @@ Il a pour utilité principale d'afficher les différentes applications à décom
 
 ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) 
 
-**XML**
+XML (Extensible Markup Language)
 
 **Principales variables :**
 
