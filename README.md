@@ -29,7 +29,7 @@ Il a pour utilité principale d'afficher les différentes applications à décom
 
 ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black) 
 
-![Dynamic XML Badge](https://img.shields.io/badge/dynamic/xml)
+![Dynamic XML Badge](https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fhttpbin.org%2Fxml)
 
 
 - JavaScipt (60%)
