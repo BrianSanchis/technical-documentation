@@ -37,15 +37,15 @@ Il a pour utilité principale d'afficher les différentes applications à décom
 
 # Déscription des différentes fonctions
 
-- **function coll_listAppli_call()** -> appelle **coll_listAppli_Update()**
+- **fonction coll_listAppli_call()** -> appelle la fonction **coll_listAppli_Update()**
 
-- **function coll_listAppli_Update()** -> permet de rafraîchir la page à partir du cache
+- **fonction coll_listAppli_Update()** -> permet de rafraîchir la page à partir du cache
 
-- **function coll_listAppli_draw()** -> affichage des applications -> contient ->
-	- **function load()** -> récupère la liste des applications modifiées ou décommissionner
-	- boucle for permettant de trier les applications modifiées.
-	- plusieurs conditions permettant de filtrer l'application
-	- plusieurs conditions, si l'application n'est pas modifiée, alors on génère le contenu de l'application
+- **fonction coll_listAppli_draw()** -> affichage des applications -> contient ->
+	- **fonction load()** -> récupère la liste des applications modifiées ou décommissionner
+	- Boucle for permettant de trier les applications modifiées.
+	- Plusieurs conditions permettant de filtrer l'application
+	- Plusieurs conditions permettant d'afficher uniquement les applications non-modifiées
 
 # Installation
 
