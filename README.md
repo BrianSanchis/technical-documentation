@@ -45,10 +45,15 @@ XML (Extensible Markup Language)
 - **fonction coll_listAppli_Update()** -> Elle prend un paramètre ***bCache*** qui indique si le cache doit être utilisé lors du chargement de la page -> Permet de rafraîchir la page à partir du cache.
 
 - **fonction coll_listAppli_draw()** -> affichage des applications -> contient ->
-	- **fonction load()** -> effectue une requête ***AJAX*** en utilisant l'objet ***XMLHttpRequest*** pour récupérer des données à partir de l'URL spécifiée -> récupère la 		 liste des applications modifiées ou décommissionner.
-	- Boucle for parcourrant la liste des applicatis mofidiés pour la comparer avec l'applicatif générer ->permet de trier les applications modifiées.
-	- Plusieurs conditions prenant en compte les détails d'une application -> permet de filtrer l'application à afficher
-	- Plusieurs conditions prenant en compte les filtres -> permet d'afficher uniquement les applications non-modifiées
+	- **fonction load()**  
+		- effectue une requête ***AJAX*** en utilisant l'objet ***XMLHttpRequest*** pour récupérer des données à partir de l'URL spécifiée -> 
+		- récupère la liste des applications modifiées ou décommissionner.
+	- ***Boucle*** for parcourrant la liste des applicatis mofidiés pour la comparer avec l'applicatif générer 
+		- permet de trier les applications modifiées.
+	- Plusieurs conditions prenant en compte les détails d'une application 
+		- permet de filtrer l'application à afficher
+	- Plusieurs conditions prenant en compte les filtres 
+		- permet d'afficher uniquement les applications non-modifiées
 
 # Installation
 
