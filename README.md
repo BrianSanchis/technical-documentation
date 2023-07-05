@@ -5,7 +5,7 @@
 
 <picture>
   <source media="(max-width: 767px)" srcset="">
-  <img align="center" alt="" src="/programming.svg" width=300px>
+  <img align="center" alt="" src="/logoSNCFPng.png" width=300px>
 </picture>
 
 </div>
