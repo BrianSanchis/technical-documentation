@@ -3,7 +3,11 @@
 <h2>coll_synthese.js</h2>
 <h3>Réalisé par Sanchis Brian</h3>
 
-<img  width="500"  alt="login"  src="/logoBlackWhite.png">
+<picture>
+  <source media="(max-width: 767px)" srcset="">
+  <img align="center" alt="" src="/programming.svg" width=300px>
+</picture>
+
 </div>
 
 # Qu'est-ce que coll_synthese.js ?
@@ -48,7 +52,7 @@ XML (Extensible Markup Language)
 	- **fonction load()**  
 		- effectue une requête ***AJAX*** en utilisant l'objet ***XMLHttpRequest*** pour récupérer des données à partir de l'URL spécifiée -> 
 		- récupère la liste des applications modifiées ou décommissionner.
-	- ***Boucle*** for parcourrant la liste des applicatis mofidiés pour la comparer avec l'applicatif générer 
+	- ***Boucle for*** parcourrant la liste des applicatis mofidiés pour la comparer avec l'applicatif généré 
 		- permet de trier les applications modifiées.
 	- Plusieurs conditions prenant en compte les détails d'une application 
 		- permet de filtrer l'application à afficher
