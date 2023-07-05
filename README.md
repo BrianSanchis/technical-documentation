@@ -5,7 +5,7 @@
 
 <picture>
   <source media="(max-width: 767px)" srcset="">
-  <img align="center" alt="" src="/sncf_nb_appli_1_0_0.jpg" width=300px>
+  <img align="center" alt="" src="/LOGO_SNCF_GROUPE_DEFONCE.png" width=300px>
 </picture>
 
 </div>
@@ -52,7 +52,7 @@ XML (Extensible Markup Language)
 	- **fonction load()**  
 		- effectue une requête ***AJAX*** en utilisant l'objet ***XMLHttpRequest*** pour récupérer des données à partir de l'URL spécifiée -> 
 		- récupère la liste des applications modifiées ou décommissionner.
-	- ***Boucle for*** parcourrant la liste des applicatis mofidiés pour la comparer avec l'applicatif généré 
+	- ***Boucle for*** parcourant la liste des applicatifs modifiés pour la comparer avec l'applicatif généré 
 		- permet de trier les applications modifiées.
 	- Plusieurs conditions prenant en compte les détails d'une application 
 		- permet de filtrer l'application à afficher
