@@ -5,7 +5,7 @@
 
 <picture>
   <source media="(max-width: 767px)" srcset="">
-  <img align="center" alt="" src="/logoSNCFPng.png" width=300px>
+  <img align="center" alt="" src="/sncf_nb_appli_1_0_0.jpg" width=300px>
 </picture>
 
 </div>
