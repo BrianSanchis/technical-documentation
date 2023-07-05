@@ -5,7 +5,7 @@
 
 <picture>
   <source media="(max-width: 767px)" srcset="">
-  <img align="center" alt="" src="/LOGO_SNCF_GROUPE_RVB.png" width=400px>
+  <img align="center" alt="" src="/LOGO_SNCF_GROUPE_DEFONCE.png" width=300px>
 </picture>
 
 </div>
