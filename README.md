@@ -42,7 +42,7 @@ XML (Extensible Markup Language)
 - d.nom : nom de chaque application une par une
 - count : compteur d'application affiché
 
-# Déscription des différentes fonctions
+# Description des différentes fonctions
 
 - **fonction coll_listAppli_call()** -> appelle la fonction **coll_listAppli_Update()**
 
